@@ -12,9 +12,9 @@ The purpose of this project is to refactor VBA code to improve its runtime perfo
 
 The originally developed code structure of the VBA script was effective in executing its task of analyzing stock data with the use of nested For Loops.  The VBA script has demonstrated itself to be able to complete its analysis of data sets containin approximately 3000 rows for each year in less than one second as can be seen by the following graphs:
 
-![2017 Data before code refactoring](resources/VBA_Challenge_2017_beforeRefactoring.PNG)
+![2017 Data before code refactoring](Resources/VBA_Challenge_2017_beforeRefactoring.PNG)
 
-![2018 Data before code refactoring](resources/VBA_Challenge_2018_beforeRefactoring.PNG)
+![2018 Data before code refactoring](Resources/VBA_Challenge_2018_beforeRefactoring.PNG)
 
 For the 2017 data the time to run the analysis was 0.75 seconds and the 2018 data was processed in 0.75 seconds.
 
@@ -22,9 +22,9 @@ For the 2017 data the time to run the analysis was 0.75 seconds and the 2018 dat
 
 To improve runtime performance, the code was refactored to use a single For Loop and have the output data be stored in a series of arrays that are then used to populate the analysis output worksheet.  The runtime performance of the code showed notable improvement after this refactoring of the VBA script as can be seen below:
 
-![2017 Data from Refactored Code](resources/VBA_Challenge_2017.PNG)
+![2017 Data from Refactored Code](Resources/VBA_Challenge_2017.PNG)
 
-![2018 Data from Refactored Code](resources/VBA_Challenge_2018.PNG)
+![2018 Data from Refactored Code](Resources/VBA_Challenge_2018.PNG)
 
 For the 2017 data the runtime for analysis dropped to 0.098 seconds and the 2018 data was processed in 0.11 seconds.  This constitutes an approximately 85% reduction in processing time.
 
