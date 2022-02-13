@@ -28,6 +28,8 @@ To improve runtime performance, the code was refactored to use a single For Loop
 
 For the 2017 data the runtime for analysis dropped to 0.098 seconds and the 2018 data was processed in 0.11 seconds.  This constitutes an approximately 85% reduction in processing time.
 
+The VBA script and data set can be found here: [VBA_Challenge.xlsm](VBA_Challenge.xlsm)
+
 ## Summary
 
 Refactoring code is a beneficial and often necessary practice.  Given that operatng circumstances for any given application may change or simply that data inputs for data processing systems will often be dynamic in nature, it is important that code be revisited by new developers with new perspectives and experience or even the original developer after time has passed and he or she is able to approach the same code with a fresh perspective.  This can lead to significant improvements in coding performance and expanded scope of an application's functionality.
